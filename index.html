@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Text Compare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Local Text Compare</h1>
+    <p>All comparison happens locally in your browser - no data leaves this page.</p>
+  </header>
+
+  <main class="layout">
+    <section class="inputs">
+      <div class="field">
+        <label for="originalText">Original text</label>
+        <textarea id="originalText" aria-label="Original text"></textarea>
+      </div>
+      <div class="field">
+        <label for="modifiedText">Modified text</label>
+        <textarea id="modifiedText" aria-label="Modified text"></textarea>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button id="compareBtn" class="btn primary">Compare</button>
+      <button id="clearBtn" class="btn">Clear</button>
+    </section>
+
+    <section class="results">
+      <div id="summary" class="summary" aria-live="polite"></div>
+      <div id="diffOutput" class="diff-output" aria-label="Diff output"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>This tool is an open-source project designed for safe, private text comparison. None of your text is sent anywhere - everything runs locally in your browser using a fully static front-end with no persistent storage.</p>
+    <p>View the project on GitHub: <a href="https://github.com/your-repo-here">github.com/your-repo-here</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
