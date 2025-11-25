@@ -29,7 +29,7 @@ Ideal for developers, auditors, analysts, lawyers, IT staff, and anyone who need
 
 ## Screenshot
 
-![alt text](Imgs\screenshot-for-readme.png)
+![alt text](Imgs/screenshot-for-readme.png)
 
 ## Quick Start
 
